@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*Place any google fonts here*/
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url("https://use.typekit.net/rxn4hbw.css");
+/*CSS Reset - This is wipes out default browser settings that could cause you issues.*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}
+/*Box-Sizing: This will help you with your box-model math*/
+*, *:before, *:after {box-sizing: border-box;}
+/*Links - I took off that awful underline and changed the link color.*/
+a {text-decoration: none; color:pink;}
+/*Non Bold Headings*/
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+/*Things I added do not count toward your line limit.*/
+/*	
+	Your Zen Garden CSS
+	This is the CSS for your zen garden.
+*/
+
+/*DO NOT put heights and widths in the body*/
+/*What can go in body: colors, fonts, backgrounds*/
+
+body {
+	background-image: url("/Users/lillianbringle/Desktop/bringle_p2zengarden/img/Sand-Zen-Garden-Tile-10.png");
+	background-repeat: repeat;
+	background-size: 400px;
+
+	font-family: "montserrat", sans-serif;
+	font-size: 14pt;
+	line-height: 1.5em;
+}
+
+.page-wrapper {
+	background-color: #F9F2EA;
+	width: 1140px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+header {
+	padding: 20px;
+}
+
+.intro {
+	padding: 20px;
+	width: 1140px;
+	background-image: url(../img/flowerpic.png);
+	background-repeat: no-repeat;
+	background-size: 13em;
+	background-position: 85% 0;
+}
+
+.preamble {
+	width: 780px;
+	float: left;
+	padding: 30px 30px 30px 15px;
+}
+
+.summary {
+	width: 780px;
+}
+
+.main {
+	width: 780px;
+	float: left;
+	padding: 20px;
+}
+
+.benefits {
+	background-color:#78785B;
+	color:#F9F2EA;
+	padding: 1em 0.5em 0.5em 1em;
+	margin: 0em 0em 1.5em 0em;
+	float: right;
+}
+
+.benefits h3 {
+	color: white; 
+}
+
+.sidebar {
+	background-color: #989977;
+	background-image: url(../img/Wildflower-moon_2.png);
+	background-repeat: no-repeat;
+	background-size: 13em;
+	background-position: center top;
+
+	width: 320px;
+	position: relative;
+	float: right;
+	top: -400px;
+
+	padding-top: 450px;
+	padding-bottom: 1000px;
+	line-height: 2em; 
+}
+
+.design-selection {
+	padding-left: 0em;
+}
+
+.design-archives{
+	padding: 0em;
+}
+
+.zen-resources{
+	padding: 0em;
+}
+
+.select {
+	background-color: #78785B;
+	color: black; 
+	padding: 0.5rem 0rem 0.5rem 1rem; 
+}
+
+.archives {
+	background-color: #78785B;
+	color: black;
+	padding: 0.5rem 0rem 0.5rem 1rem; 
+}
+
+.resources {
+	background-color: #78785B;
+	color: black;
+	padding: 0.5rem 0rem 0.5rem 1rem; 
+}
+
+.design-name {
+	font-style: italic;
+}
+
+/* top right bottom left */
+
+
+/*Study the HTML and pull tags, ids, and classes to use. I have a couple html selectors below to get you started. You will need to call more than this for your designs.*/
+a {
+	color:#070505;
+}
+
+a:hover {
+	color: gold
+}
+
+p {
+	margin: 2rem 0rem 2rem 0rem;
+}
+
+h1 {
+	font-family: 'Aladin', cursive;
+	font-size: 34pt;
+}
+
+h2 {
+	font-family: 'Aladin', cursive;
+	font-size: 30pt;
+	color: #78785B;
+	margin: 2rem 0rem 2rem 0rem;
+}
+
+h3 {
+	font-family: 'Aladin', cursive;
+	font-size: 28pt;
+	color: #78785B;
+}
+
+li {
+	list-style: none;
+	/* padding: 0.25rem 0rem 0.25rem 0rem;*/
+	padding-left: 1em;
+}
+
+ul {
+	padding: 0.5rem 0rem 0.5rem 0rem;
+	margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+/* top right bottom left */
+
+footer {
+	background-color: #D9CAB9;
+	height: 150px;
+	padding: 1em 0.5em 0.5em 1em;
+	margin: 0 auto;
+}
+
+
